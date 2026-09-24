@@ -3,8 +3,7 @@
 Checks company job boards every 3 hours, keeps new-grad data roles that match
 your resume, and pings you on Discord with a fit score and apply link.
 
-## Setup (about 15 minutes)
-
+## Setup
 1. **Make a PRIVATE GitHub repo** (your resume will live in it) and upload all
    of these files, including the `.github` folder.
 2. **Paste your resume** as plain text into `resume.txt`.
