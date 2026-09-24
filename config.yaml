@@ -7,7 +7,7 @@
 use_simplify_list: true
 
 # Ignore postings older than this many days.
-max_age_days: 2
+max_age_days: 1
 
 # Workday/iCIMS boards are keyword-searched (they can hold thousands of jobs)
 ats_search_terms: [data, analyst, analytics, business intelligence, software engineer, machine learning, software, forward deploy]
@@ -28,6 +28,7 @@ title_include:
   - application developer
   - full stack engineer
   - full stack developer
+  - forward deployment engineer
 
   # Data engineering
   - data engineer
@@ -167,7 +168,7 @@ locations:
 # ---------------------------------------------------------------------------
 resume_file: resume.txt
 model: claude-haiku-4-5-20251001   # fast and cheap; fine for screening
-min_score: 75                       # only alert on jobs scoring this or higher
+min_score: 70                      # only alert on jobs scoring this or higher
 max_llm_calls_per_run: 40           # caps cost; leftovers get scored next run
 
 # ---------------------------------------------------------------------------
@@ -177,7 +178,7 @@ max_llm_calls_per_run: 40           # caps cost; leftovers get scored next run
 # PDFs go in resume/ as <prefix>_<job title>_<company>.pdf
 # ---------------------------------------------------------------------------
 original_resume_min_score: 75
-tailor_min_score: 60
+tailor_min_score: 55
 tailor_model: claude-opus-5          # writes the tailored resumes
 resume_file_prefix:                  # blank = from your resume's name line (SANDY YANG -> Sandy_YANG)
 

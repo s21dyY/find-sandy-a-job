@@ -1,41 +1,429 @@
-# One company per line. Run: python discovery.py companies.txt
-# Tech with big analytics teams
+# ============================================================
+# BIG TECH / CONSUMER TECH
+# ============================================================
+Google
+Microsoft
+Amazon
+Apple
+Meta
+Netflix
 Uber
+Lyft
+Airbnb
+DoorDash
+Instacart
+Pinterest
+Reddit
+Snap
+TikTok
+ByteDance
+LinkedIn
+Spotify
+Dropbox
+Discord
+Roblox
+Yahoo
+Zillow
 Etsy
 Squarespace
 Peloton
 Nextdoor
 Grammarly
-Zillow
-Carvana
 Thumbtack
 Faire
 Webflow
+Canva
+Wayfair
+Expedia
+Booking.com
+Tripadvisor
+
+# ============================================================
+# CLOUD / ENTERPRISE / DEVELOPER TOOLS
+# ============================================================
+Salesforce
+ServiceNow
+Oracle
+Adobe
+Cisco
+IBM
+Cloudflare
+Datadog
+MongoDB
+Snowflake
+Databricks
+Confluent
+Elastic
+HashiCorp
+GitLab
+Atlassian
+Twilio
+Okta
+HubSpot
+Klaviyo
+Samsara
+Asana
+Notion
 Airtable
 Miro
-Canva
-Amplitude
-Mixpanel
+Figma
+Box
+DocuSign
+Dropbox
+Smartsheet
+Workday
+Splunk
+New Relic
+PagerDuty
+Fastly
+DigitalOcean
+Vercel
+Cockroach Labs
+Grafana Labs
+Postman
+Sentry
+LaunchDarkly
+CircleCI
+Contentful
+Braze
+Procore
+Toast
+
+# ============================================================
+# DATA / ANALYTICS / DATA INFRASTRUCTURE
+# Very relevant to your background
+# ============================================================
+Databricks
+Snowflake
 dbt Labs
 Fivetran
-Hex
-Sigma Computing
-ThoughtSpot
 Hightouch
-Hugging Face
+Amplitude
+Mixpanel
+ThoughtSpot
+Sigma Computing
+Hex
+Alteryx
+Cloudera
+Confluent
+Starburst
+SingleStore
+Dataiku
+Collibra
+Informatica
+Teradata
+Tableau
+Palantir
+Scale AI
+Weights & Biases
+Pinecone
+Redis
+Neo4j
+Astronomer
+Monte Carlo
+dbt Labs
+DataRobot
 
-# Fintech / insurtech
+# ============================================================
+# AI / ML
+# ============================================================
+OpenAI
+Anthropic
+Cohere
+Hugging Face
+Scale AI
+Perplexity
+Glean
+Together AI
+Replit
+Runway
+ElevenLabs
+Baseten
+Modal
+Weights & Biases
+Anyscale
+Groq
+Cerebras
+SambaNova
+Waymo
+Aurora
+Applied Intuition
+Anduril
+Sierra
+Harvey
+Writer
+Moveworks
+
+# ============================================================
+# FINTECH / PAYMENTS
+# ============================================================
+Stripe
+Block
+PayPal
+Affirm
+Robinhood
+Coinbase
+Brex
+Ramp
+Plaid
+Chime
+SoFi
 Marqeta
 Betterment
 Wealthfront
 Carta
-Lemonade
-Oscar Health
-Root Insurance
-# Health tech
-Tempus
+Mercury
+Bill.com
+Remitly
+Wise
+Adyen
+Checkout.com
+Toast
+FIS
+Fiserv
+
+# ============================================================
+# BANKING / FINANCIAL SERVICES
+# Don't overlook these — huge engineering/data organizations
+# ============================================================
+JPMorgan Chase
+Capital One
+Bank of America
+Citigroup
+Goldman Sachs
+Morgan Stanley
+Wells Fargo
+American Express
+Mastercard
+Visa
+Fidelity Investments
+Charles Schwab
+BlackRock
+Bloomberg
+Nasdaq
+S&P Global
+Moody's
+MSCI
+CME Group
+Discover
+U.S. Bank
+BNY
+State Street
+Northern Trust
+MUFG
+Nomura
+
+# ============================================================
+# TRADING / QUANT / FINANCIAL TECHNOLOGY
+# ============================================================
+Citadel
+Citadel Securities
+Jane Street
+Two Sigma
+Hudson River Trading
+DRW
+Optiver
+IMC Trading
+SIG
+Jump Trading
+Virtu Financial
+Point72
+Millennium
+BlackRock
+Bloomberg
+Belvedere Trading
+
+# ============================================================
+# HEALTH TECH / HEALTHCARE DATA
+# ============================================================
+Tempus AI
 Flatiron Health
 Komodo Health
-Headway
+Oscar Health
 Spring Health
+Headway
 Zocdoc
+Epic
+IQVIA
+Optum
+UnitedHealth Group
+CVS Health
+Cigna
+Elevance Health
+Centene
+Humana
+Veeva Systems
+Illumina
+Guardant Health
+Verily
+Recursion
+Benchling
+Moderna
+Pfizer
+Johnson & Johnson
+Eli Lilly
+Amgen
+Genentech
+Roche
+
+# ============================================================
+# INSURANCE / INSURTECH
+# ============================================================
+Lemonade
+Root Insurance
+GEICO
+Progressive
+Liberty Mutual
+Travelers
+Nationwide
+Allstate
+State Farm
+AIG
+MetLife
+Prudential
+
+# ============================================================
+# RETAIL / E-COMMERCE / MARKETPLACES
+# Often overlooked for SWE + analytics
+# ============================================================
+Walmart
+Walmart Global Tech
+Target
+eBay
+Wayfair
+Chewy
+Carvana
+Etsy
+Faire
+Instacart
+DoorDash
+Uber
+Airbnb
+StubHub
+SeatGeek
+StockX
+GOAT
+Fanatics
+Nike
+Home Depot
+Lowe's
+Costco
+
+# ============================================================
+# SEMICONDUCTOR / HARDWARE
+# ============================================================
+NVIDIA
+AMD
+Intel
+Qualcomm
+Broadcom
+Micron
+Texas Instruments
+Marvell
+Arm
+Synopsys
+Cadence Design Systems
+Applied Materials
+Lam Research
+KLA
+ASML
+Western Digital
+Seagate
+Dell
+HP
+HPE
+NetApp
+Arista Networks
+Juniper Networks
+
+# ============================================================
+# INDUSTRIAL / AUTOMOTIVE / ENERGY
+# Good fit with your SLB background
+# ============================================================
+SLB
+Halliburton
+Baker Hughes
+ExxonMobil
+Chevron
+Shell
+bp
+Schneider Electric
+Siemens
+Honeywell
+GE Aerospace
+GE Vernova
+General Motors
+Ford
+Tesla
+Rivian
+Lucid Motors
+Caterpillar
+John Deere
+Bosch
+Emerson
+Rockwell Automation
+Cummins
+
+# ============================================================
+# TELECOM / MEDIA
+# ============================================================
+Comcast
+Charter Communications
+Verizon
+AT&T
+T-Mobile
+Disney
+Warner Bros. Discovery
+NBCUniversal
+Paramount
+Roku
+
+# ============================================================
+# CONSULTING / PROFESSIONAL SERVICES
+# Useful for tech + data + client-facing roles
+# ============================================================
+Deloitte
+EY
+PwC
+KPMG
+Accenture
+Capgemini
+Cognizant
+Slalom
+CGI
+Booz Allen Hamilton
+McKinsey
+BCG
+BCG X
+Pariveda
+Publicis Sapient
+ZS
+West Monroe
+
+# ============================================================
+# ENTERPRISE / B2B / OTHER STRONG TECH EMPLOYERS
+# ============================================================
+Intuit
+Autodesk
+Qualtrics
+Gusto
+Rippling
+Carta
+Flexport
+Samsara
+Palantir
+Datadog
+Cloudflare
+Rubrik
+Nutanix
+Pure Storage
+Palo Alto Networks
+CrowdStrike
+Zscaler
+Fortinet
+Proofpoint
+SentinelOne
+SailPoint
+UiPath
+Automation Anywhere
+C3 AI

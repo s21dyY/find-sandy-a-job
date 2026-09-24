@@ -30,6 +30,19 @@ export DISCORD_WEBHOOK_URL=https://...      # optional; without it results just 
 python job_finder.py
 ```
 
+## Run it on a schedule (Mac)
+
+```bash
+./scheduler/install.sh            # every 3 hours; ./scheduler/install.sh 6 for every 6
+./scheduler/install.sh --uninstall
+tail -f data/job_finder.log       # watch runs
+```
+
+Uses launchd, so a run missed while the Mac was asleep happens on wake. The
+project must not be in Desktop, Documents, or Downloads (macOS blocks
+background jobs there). Set `max_age_days` to cover the longest gap between
+runs, e.g. `1` if the laptop sleeps overnight.
+
 ## Add companies
 
 1. Add company names to `companies.txt`, one per line.

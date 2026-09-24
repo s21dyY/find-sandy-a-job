@@ -10,6 +10,72 @@
 # ---------------------------------------------------------------------------
 
 greenhouse:
+  - linkedin                 # LinkedIn, 53 jobs  CHECK: board is named 'LI Test Company'
+  - squarespace              # Squarespace, 34 jobs
+  - peloton                  # Peloton, 55 jobs
+  - nextdoor                 # Nextdoor, 21 jobs
+  - faire                    # Faire, 73 jobs
+  - webflow                  # Webflow, 26 jobs
+  - tripadvisor              # Tripadvisor, 99 jobs
+  - airtable                 # Airtable, 2 jobs
+  - boxinc                   # Box, 115 jobs
+  - smartsheet               # Smartsheet, 96 jobs
+  - newrelic                 # New Relic, 51 jobs
+  - pagerduty                # PagerDuty, 53 jobs
+  - fastly                   # Fastly, 41 jobs
+  - vercel                   # Vercel, 87 jobs
+  - cockroachlabs            # Cockroach Labs, 19 jobs
+  - grafanalabs              # Grafana Labs, 148 jobs
+  - launchdarkly             # LaunchDarkly, 53 jobs
+  - circleci                 # CircleCI, 14 jobs
+  - contentful               # Contentful, 19 jobs
+  - braze                    # Braze, 327 jobs
+  - fivetran                 # Fivetran, 197 jobs
+  - hightouch                # Hightouch, 78 jobs
+  - amplitude                # Amplitude, 38 jobs
+  - mixpanel                 # Mixpanel, 77 jobs
+  - sigmacomputing           # Sigma Computing, 67 jobs
+  - starburst                # Starburst, 27 jobs
+  - singlestore              # SingleStore, 43 jobs
+  - dataiku                  # Dataiku, 26 jobs
+  - collibra                 # Collibra, 34 jobs
+  - scaleai                  # Scale AI, 211 jobs
+  - weights_and_biases       # Weights & Biases, 8 jobs
+  - neo4j                    # Neo4j, 56 jobs
+  - togetherai               # Together AI, 77 jobs
+  - waymo                    # Waymo, 356 jobs
+  - betterment               # Betterment, 29 jobs
+  - carta                    # Carta, 77 jobs
+  - mercury                  # Mercury, 62 jobs
+  - billcom                  # Bill.com, 43 jobs
+  - wise                     # Wise, 16 jobs
+  - adyen                    # Adyen, 213 jobs
+  - charles                  # Charles Schwab, 3 jobs  CHECK: matched on first word only
+  - janestreet               # Jane Street, 227 jobs
+  - optiver                  # Optiver, 0 jobs  CHECK: 0 open jobs
+  - imc                      # IMC Trading, 172 jobs  CHECK: matched on first word only
+  - jumptrading              # Jump Trading, 113 jobs
+  - virtu                    # Virtu Financial, 49 jobs  CHECK: matched on first word only
+  - point72                  # Point72, 229 jobs
+  - flatironhealth           # Flatiron Health, 27 jobs
+  - komodohealth             # Komodo Health, 27 jobs
+  - oscar                    # Oscar Health, 278 jobs  CHECK: matched on first word only
+  - zocdoc                   # Zocdoc, 55 jobs
+  - carvana                  # Carvana, 1749 jobs
+  - stubhubinc               # StubHub, 33 jobs
+  - seatgeek                 # SeatGeek, 32 jobs
+  - stockx                   # StockX, 35 jobs
+  - fanaticsinc              # Fanatics, 18 jobs
+  - lowe                     # Lowe's, 0 jobs  CHECK: matched on first word only; board is named 'Lowe Mechanical Services'; 0 open jobs
+  - general                  # General Motors, 1 jobs  CHECK: matched on first word only; board is named 'General Interest '
+  - lucidmotors              # Lucid Motors, 422 jobs
+  - disney                   # Disney, 2 jobs  CHECK: board is named 'Sgt. Pepper's Lonely Hearts Club Band'
+  - roku                     # Roku, 253 jobs
+  - bcg                      # BCG, 3 jobs  CHECK: board is named 'Bohen Consulting Group   '
+  - bcg                      # BCG X, 3 jobs  CHECK: matched on first word only; board is named 'Bohen Consulting Group   '
+  - qualtrics                # Qualtrics, 47 jobs
+  - purestorage              # Pure Storage, 366 jobs  CHECK: board is named 'Everpure'
+  - zscaler                  # Zscaler, 372 jobs
   - stripe
   - airbnb
   - databricks
@@ -33,7 +99,6 @@ greenhouse:
   - samsara
   - mongodb
   - anthropic
-  - snowflake
   - doordash
   - block
   - plaid
@@ -69,36 +134,126 @@ lever:
   - benchling
   - plaid
   - sourcegraph
+  - wealthfront              # Wealthfront, 23 jobs
+  - capital                  # Capital One, 44 jobs  CHECK: matched on first word only
+  - belvederetrading         # Belvedere Trading, 21 jobs
+  - veeva                    # Veeva Systems, 917 jobs  CHECK: matched on first word only
+  - metlife                  # MetLife, 39 jobs
+  - kpmg   
 
 ashby:
-  - ramp
-  - notion
-  - openai
-  - linear
-  - perplexity
-  - anthropic
-  - cursor
-  - replit
-  - applied-intuition
-  - glean
-  - rippling
-  - vercel
-  - mercury
-  - watersheds
-  - decagon
-  - elevenlabs
-  - modal
-  - baseten
-  - together-ai
-  - cohere
-  - mercor
-  - mintmcp
-  - harvey
-
-
+  - notion                   # Notion, 129 jobs
+  - openai                   # OpenAI, 826 jobs
+  - cohere                   # Cohere, 147 jobs
+  - perplexity               # Perplexity, 122 jobs
+  - replit                   # Replit, 75 jobs
+  - elevenlabs               # ElevenLabs, 218 jobs
+  - baseten                  # Baseten, 101 jobs
+  - modal                    # Modal, 40 jobs
+  - harvey                   # Harvey, 302 jobs
+  - ramp                     # Ramp, 155 jobs
+  - thumbtack                # Thumbtack, 48 jobs
+  - snowflake                # Snowflake, 348 jobs
+  - confluent                # Confluent, 20 jobs
+  - miro                     # Miro, 28 jobs
+  - sentry                   # Sentry, 44 jobs
+  - hex                      # Hex, 2 jobs
+  - pinecone                 # Pinecone, 7 jobs
+  - redis                    # Redis, 28 jobs
+  - astronomer               # Astronomer, 20 jobs
+  - runway                   # Runway, 4 jobs
+  - anyscale                 # Anyscale, 22 jobs
+  - cerebras                 # Cerebras, 117 jobs
+  - applied                  # Applied Intuition, 304 jobs  CHECK: matched on first word only
+  - sierra                   # Sierra, 205 jobs
+  - writer                   # Writer, 51 jobs
+  - plaid                    # Plaid, 121 jobs
+  - headway                  # Headway, 83 jobs
+  - benchling                # Benchling, 54 jobs
+  - eli                      # Eli Lilly, 4 jobs  CHECK: matched on first word only
+  - lemonade                 # Lemonade, 39 jobs
+  - applied                  # Applied Materials, 304 jobs  CHECK: matched on first word only
+  - pariveda                 # Pariveda, 25 jobs
+  - uipath  
+  - thumbtack                # Thumbtack, 48 jobs
+  - snowflake                # Snowflake, 348 jobs
+  - confluent                # Confluent, 20 jobs
+  - miro                     # Miro, 28 jobs
+  - sentry                   # Sentry, 44 jobs
+  - hex                      # Hex, 2 jobs
+  - pinecone                 # Pinecone, 7 jobs
+  - redis                    # Redis, 28 jobs
+  - astronomer               # Astronomer, 20 jobs
+  - runway                   # Runway, 4 jobs
+  - anyscale                 # Anyscale, 22 jobs
+  - cerebras                 # Cerebras, 117 jobs
+  - applied                  # Applied Intuition, 304 jobs  CHECK: matched on first word only
+  - sierra                   # Sierra, 205 jobs
+  - writer                   # Writer, 51 jobs
+  - plaid                    # Plaid, 121 jobs
+  - headway                  # Headway, 83 jobs
+  - benchling                # Benchling, 54 jobs
+  - eli                      # Eli Lilly, 4 jobs  CHECK: matched on first word only
+  - lemonade                 # Lemonade, 39 jobs
+  - applied                  # Applied Materials, 304 jobs  CHECK: matched on first word only
+  - pariveda                 # Pariveda, 25 jobs
+  - uipath                   # UiPath, 98 jobs
 workable:
-  - huggingface            # from apply.workable.com/huggingface
-
+  - thumbtack                # Thumbtack, 48 jobs
+  - snowflake                # Snowflake, 348 jobs
+  - confluent                # Confluent, 20 jobs
+  - miro                     # Miro, 28 jobs
+  - sentry                   # Sentry, 44 jobs
+  - hex                      # Hex, 2 jobs
+  - pinecone                 # Pinecone, 7 jobs
+  - redis                    # Redis, 28 jobs
+  - astronomer               # Astronomer, 20 jobs
+  - runway                   # Runway, 4 jobs
+  - anyscale                 # Anyscale, 22 jobs
+  - cerebras                 # Cerebras, 117 jobs
+  - applied                  # Applied Intuition, 304 jobs  CHECK: matched on first word only
+  - sierra                   # Sierra, 205 jobs
+  - writer                   # Writer, 51 jobs
+  - plaid                    # Plaid, 121 jobs
+  - headway                  # Headway, 83 jobs
+  - benchling                # Benchling, 54 jobs
+  - eli                      # Eli Lilly, 4 jobs  CHECK: matched on first word only
+  - lemonade                 # Lemonade, 39 jobs
+  - applied                  # Applied Materials, 304 jobs  CHECK: matched on first word only
+  - pariveda                 # Pariveda, 25 jobs
+  - uipath  
+  - microsoft                # Microsoft, 0 jobs  CHECK: 0 open jobs
+  - amazon                   # Amazon, 0 jobs  CHECK: 0 open jobs
+  - apple                    # Apple, 0 jobs  CHECK: 0 open jobs
+  - meta                     # Meta, 0 jobs  CHECK: 0 open jobs
+  - uber                     # Uber, 0 jobs  CHECK: 0 open jobs
+  - doordash                 # DoorDash, 0 jobs  CHECK: 0 open jobs
+  - snap                     # Snap, 0 jobs  CHECK: 0 open jobs
+  - bytedance                # ByteDance, 0 jobs  CHECK: 0 open jobs
+  - yahoo                    # Yahoo, 0 jobs  CHECK: 0 open jobs
+  - zillow                   # Zillow, 0 jobs  CHECK: 0 open jobs
+  - etsy                     # Etsy, 0 jobs  CHECK: 0 open jobs
+  - grammarly                # Grammarly, 0 jobs  CHECK: 0 open jobs
+  - canva                    # Canva, 0 jobs  CHECK: 0 open jobs
+  - wayfair                  # Wayfair, 0 jobs  CHECK: 0 open jobs
+  - expedia                  # Expedia, 0 jobs  CHECK: 0 open jobs
+  - booking                  # Booking.com, 0 jobs  CHECK: matched on first word only; 0 open jobs
+  - salesforce               # Salesforce, 0 jobs  CHECK: 0 open jobs
+  - oracle                   # Oracle, 0 jobs  CHECK: 0 open jobs
+  - adobe                    # Adobe, 0 jobs  CHECK: 0 open jobs
+  - cisco                    # Cisco, 0 jobs  CHECK: 0 open jobs
+  - ibm                      # IBM, 0 jobs  CHECK: 0 open jobs
+  - hashicorp                # HashiCorp, 0 jobs  CHECK: 0 open jobs
+  - atlassian                # Atlassian, 0 jobs  CHECK: 0 open jobs
+  - docusign                 # DocuSign, 0 jobs  CHECK: 0 open jobs
+  - workday                  # Workday, 0 jobs  CHECK: 0 open jobs
+  - splunk                   # Splunk, 0 jobs  CHECK: 0 open jobs
+  - digitalocean             # DigitalOcean, 0 jobs  CHECK: 0 open jobs
+  - postman                  # Postman, 0 jobs  CHECK: 0 open jobs
+  - dell                     # Dell, 0 jobs  CHECK: 0 open jobs
+  - rippling                 # Rippling, 0 jobs  CHECK: 0 open jobs
+  - nutanix  
+  
 workday:                   # paste the careers URL as-is
   - https://capitalone.wd12.myworkdayjobs.com/Capital_One
   - https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
