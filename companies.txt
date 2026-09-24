@@ -1,0 +1,41 @@
+# One company per line. Run: python discovery.py companies.txt
+# Tech with big analytics teams
+Uber
+Etsy
+Squarespace
+Peloton
+Nextdoor
+Grammarly
+Zillow
+Carvana
+Thumbtack
+Faire
+Webflow
+Airtable
+Miro
+Canva
+Amplitude
+Mixpanel
+dbt Labs
+Fivetran
+Hex
+Sigma Computing
+ThoughtSpot
+Hightouch
+Hugging Face
+
+# Fintech / insurtech
+Marqeta
+Betterment
+Wealthfront
+Carta
+Lemonade
+Oscar Health
+Root Insurance
+# Health tech
+Tempus
+Flatiron Health
+Komodo Health
+Headway
+Spring Health
+Zocdoc

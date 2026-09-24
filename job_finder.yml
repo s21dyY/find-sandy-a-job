@@ -1,3 +1,7 @@
+# GitHub Actions schedule. NOT active: it only runs from .github/workflows/, and
+# it needs resume.txt and data/ committed, which a public repo shouldn't have.
+# To use it: make the repo private, remove resume.txt / resume/ / data/ from
+# .gitignore, and move this file to .github/workflows/job_finder.yml.
 name: job-finder
 
 on:
@@ -33,6 +37,6 @@ jobs:
         run: |
           git config user.name "job-finder-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add seen_jobs.json matches.json tracker.json resume
+          git add data resume
           git diff --staged --quiet || git commit -m "Update seen jobs"
           git push

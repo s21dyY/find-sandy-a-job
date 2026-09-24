@@ -1,0 +1,107 @@
+# ---------------------------------------------------------------------------
+# Companies to watch, grouped by the system that hosts their careers page.
+# Find one with `python discovery.py "Company Name"`, or read it off the URL:
+#   boards.greenhouse.io/STRIPE  or  job-boards.greenhouse.io/STRIPE  -> greenhouse: stripe
+#   jobs.lever.co/PALANTIR                                             -> lever: palantir
+#   jobs.ashbyhq.com/RAMP                                              -> ashby: ramp
+#   apply.workable.com/HUGGINGFACE                                     -> workable: huggingface
+#   Workday / iCIMS: paste the full careers URL
+# A wrong token just prints a "404" warning and gets skipped.
+# ---------------------------------------------------------------------------
+
+greenhouse:
+  - stripe
+  - airbnb
+  - databricks
+  - robinhood
+  - coinbase
+  - figma
+  - lyft
+  - pinterest
+  - instacart
+  - dropbox
+  - reddit
+  - discord
+  - datadog
+  - cloudflare
+  - affirm
+  - brex
+  - duolingo
+  - gusto
+  - asana
+  - roblox
+  - samsara
+  - mongodb
+  - anthropic
+  - snowflake
+  - doordash
+  - block
+  - plaid
+  - twilio
+  - okta
+  - elastic
+  - hubspot
+  - klaviyo
+  - rubrik
+  - scale-ai
+  - cockroach-labs
+  - confluent
+  - gitlab
+  - reddit
+  - wayfair
+  - toast
+  - chime
+  - sofi
+  - opendoor
+  - flexport
+  - ripple
+  - highspot
+
+lever:
+  - palantir
+  - spotify
+  - anduril
+  - scale-ai
+  - highspot
+  - samsara
+  - zapier
+  - coursera
+  - benchling
+  - plaid
+  - sourcegraph
+
+ashby:
+  - ramp
+  - notion
+  - openai
+  - linear
+  - perplexity
+  - anthropic
+  - cursor
+  - replit
+  - applied-intuition
+  - glean
+  - rippling
+  - vercel
+  - mercury
+  - watersheds
+  - decagon
+  - elevenlabs
+  - modal
+  - baseten
+  - together-ai
+  - cohere
+  - mercor
+  - mintmcp
+  - harvey
+
+
+workable:
+  - huggingface            # from apply.workable.com/huggingface
+
+workday:                   # paste the careers URL as-is
+  - https://capitalone.wd12.myworkdayjobs.com/Capital_One
+  - https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
+
+icims: []
+  # - https://careers-examplecompany.icims.com   (example format)

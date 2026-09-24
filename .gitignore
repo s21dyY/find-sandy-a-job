@@ -1,14 +1,13 @@
-
+# Personal data and run state (this repo is public)
 resume.txt
-*.json
-resume
+resume/
+data/
+.json
 
-
-venv
+venv/
 .venv/
 .env
 
 __pycache__/
-*.pyc
-.DS_Store
 *.py[cod]
+.DS_Store
