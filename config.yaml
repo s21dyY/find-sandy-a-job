@@ -1,0 +1,227 @@
+# ---------------------------------------------------------------------------
+# Companies to watch, grouped by the system that hosts their careers page.
+# Find a company's token from its job-board URL:
+#   boards.greenhouse.io/STRIPE  or  job-boards.greenhouse.io/STRIPE  -> greenhouse: stripe
+#   jobs.lever.co/PALANTIR                                             -> lever: palantir
+#   jobs.ashbyhq.com/RAMP                                              -> ashby: ramp
+# A wrong token just prints a "404" warning and gets skipped.
+# ---------------------------------------------------------------------------
+companies:
+
+  greenhouse:
+    - stripe
+    - airbnb
+    - databricks
+    - robinhood
+    - coinbase
+    - figma
+    - lyft
+    - pinterest
+    - instacart
+    - dropbox
+    - reddit
+    - discord
+    - datadog
+    - cloudflare
+    - affirm
+    - brex
+    - duolingo
+    - gusto
+    - asana
+    - roblox
+    - samsara
+    - mongodb
+    - anthropic
+    - snowflake
+    - doordash
+    - block
+    - plaid
+    - twilio
+    - okta
+    - elastic
+    - hubspot
+    - klaviyo
+    - rubrik
+    - scale-ai
+    - cockroach-labs
+    - confluent
+    - gitlab
+    - reddit
+    - wayfair
+    - toast
+    - chime
+    - sofi
+    - opendoor
+    - flexport
+    - ripple
+    - highspot
+
+  lever:
+    - palantir
+    - spotify
+    - anduril
+    - scale-ai
+    - highspot
+    - samsara
+    - zapier
+    - coursera
+    - benchling
+    - plaid
+    - sourcegraph
+
+  ashby:
+    - ramp
+    - notion
+    - openai
+    - linear
+    - perplexity
+    - anthropic
+    - cursor
+    - replit
+    - applied-intuition
+    - glean
+    - rippling
+    - vercel
+    - mercury
+    - watersheds
+    - decagon
+    - elevenlabs
+    - modal
+    - baseten
+    - together-ai
+    - cohere
+    - mercor
+    - mintmcp
+    - harvey
+
+# Also scan the community SimplifyJobs new-grad list (thousands of companies).
+use_simplify_list: true
+
+# A job title must contain at least ONE of these (case-insensitive).
+title_include:
+  # Software / backend
+  - software engineer
+  - software developer
+  - backend engineer
+  - backend developer
+  - python developer
+  - application engineer
+  - application developer
+  - full stack engineer
+  - full stack developer
+
+  # Data engineering
+  - data engineer
+  - analytics engineer
+  - data platform engineer
+  - data infrastructure engineer
+  - etl developer
+  - etl engineer
+  - data pipeline
+  - data platform
+
+  # Analytics / BI — especially strong fit
+  - data analyst
+  - business intelligence
+  - bi analyst
+  - bi engineer
+  - bi developer
+  - product analyst
+  - business analyst
+  - business systems analyst
+  - insights analyst
+  - reporting analyst
+  - analytics analyst
+  - operations analyst
+  - decision scientist
+  - decision science
+
+  # Data science / ML
+  - data scientist
+  - applied scientist
+  - machine learning engineer
+  - ml engineer
+  - applied machine learning
+  - ai engineer
+  - ai developer
+
+  # Technical consulting / customer-facing engineering
+  - technology consultant
+  - technical consultant
+  - data consultant
+  - analytics consultant
+  - solutions engineer
+  - solution engineer
+  - implementation engineer
+  - implementation consultant
+  - forward deployed engineer
+  - deployment engineer
+  - customer engineer
+
+# A job title is dropped if it contains any of these as a whole word.
+title_exclude:
+  - senior
+  - sr
+  - staff
+  - principal
+  - lead
+  - manager
+  - director
+  - head
+  - vp
+  - intern
+  - internship
+  - co-op
+  - iii
+  - iv
+  - phd
+
+# Keep only jobs whose location contains one of these. Leave empty [] for all.
+locations:
+  - United States
+  - USA
+  - US
+  - Remote
+  - New York
+  - NY
+  - San Francisco
+  - CA
+  - Seattle
+  - WA
+  - Chicago
+  - Austin
+  - TX
+  - Boston
+  - MA
+
+# Ignore postings older than this many days.
+max_age_days: 30
+
+# ---------------------------------------------------------------------------
+# AI scoring
+# ---------------------------------------------------------------------------
+resume_file: resume.txt
+model: claude-haiku-4-5-20251001   # fast and cheap; fine for screening
+min_score: 52                       # only alert on jobs scoring this or higher
+max_llm_calls_per_run: 40           # caps cost; leftovers get scored next run
+
+# ---------------------------------------------------------------------------
+# Resumes + tracker.json
+#   score >= original_resume_min_score        -> use your original resume
+#   tailor_min_score .. original_min_score-1  -> Claude makes a tailored PDF
+# PDFs go in resume/ as <prefix>_<job title>_<company>.pdf
+# ---------------------------------------------------------------------------
+original_resume_min_score: 80
+tailor_min_score: 52
+tailor_model: claude-opus-5          # writes the tailored resumes
+resume_file_prefix: Sandy_YANG
+
+# Anything about you that isn't obvious from the resume.
+candidate_notes: |
+  Graduating December 2026 with an M.S. from Carnegie Mellon (BI & Data Analytics).
+  Available for full-time roles starting February 2027 (counts as a 2026/2027 new grad).
+  Has about 3 years of full-time data analyst experience from before the master's,
+  so roles asking for 0-3 years are a good fit; only 4+ years is too senior.
+  Work authorization: [FILL IN, e.g. "F-1 student, will need OPT and later H-1B sponsorship"].
+  Preferred roles: data analyst, analytics engineer, data engineer, data scientist,
+  BI engineer, and backend/software engineer roles with a data or AI focus.
