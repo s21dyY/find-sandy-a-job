@@ -9,6 +9,7 @@ use_simplify_list: true
 # Ignore postings older than this many days.
 max_age_days: 1
 
+
 # Workday/iCIMS boards are keyword-searched (they can hold thousands of jobs)
 ats_search_terms: [data, analyst, analytics, business intelligence, software engineer, machine learning, software, forward deploy]
 ats_max_pages: 5             # 20 results per page, per search term
